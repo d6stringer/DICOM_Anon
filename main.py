@@ -2,7 +2,7 @@
 Written by: Daniel Woodson
 7/21/22
 
-Select a directory containing DICOM files. Click "Anonymize" 
+Select a directory containing DICOM files. Click "Anonymize"
 """
 
 import os
