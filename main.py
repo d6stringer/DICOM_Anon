@@ -1,6 +1,12 @@
+"""
+Written by: Daniel Woodson
+7/21/22
+
+Select a directory containing DICOM files. Click "Anonymize" 
+"""
+
 import os
 import tkinter.messagebox
-
 import pydicom
 import tkinter as tk
 from tkinter import filedialog, ttk
@@ -40,7 +46,6 @@ def mkBye():
     tkinter.messagebox.showinfo(title='M-kay',
                                 message='Bye!')
     return
-
 
 def get_dir():
     global path
