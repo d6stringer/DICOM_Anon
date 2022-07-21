@@ -23,7 +23,6 @@ def anonymize():
                 dicomObject = pydicom.read_file(full_path)
                 dicomObject.PatientName = '' #set to blank, could be None
                 dicomObject.save_as(full_path)
-                print(status)
                 pb['value'] = status
                 value_label.config(text=str(status) + "%")
                 root.update_idletasks()
