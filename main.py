@@ -61,7 +61,7 @@ status = 0
 if __name__ == '__main__':
     root = tk.Tk()
     root.title('Anonymize DICOMs')
-
+    root.iconbitmap('w.ico')
     btn1 = tk.Button(root,
                     text= 'Select Folder',
                     command= get_dir)
